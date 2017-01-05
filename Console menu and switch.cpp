@@ -3,6 +3,7 @@
 
 void menuFunc();
 void heyFunc();
+void funcExit();
 
 int main()
 {
@@ -17,6 +18,9 @@ int main()
 
 	case 2: std::cout << " gigl";
 		break;
+
+	case 3: funcExit();
+
 
 	}
 
@@ -41,4 +45,9 @@ void heyFunc()
 	{
 		std::cout << " Hey ";
 	}
+}
+
+void funcExit()
+{
+	 exit(1);
 }
